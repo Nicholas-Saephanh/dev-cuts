@@ -1,0 +1,163 @@
+/*========== GLOBAL DEFAULTS ===========*/
+
+*,h1{
+	margin:0;
+	padding: 0;
+}
+html{
+	min-height: 100vh;
+}
+.jumbotron{
+	margin:0;
+}
+/*========== Nav Bar ===========*/
+
+/*========== landing/hero page ===========*/
+.hero{
+	height: 100vh;
+}
+.jumbotron.landing{
+	height: 100%;
+	background-image: url('https://static1.squarespace.com/static/57baef93cd0f68daca6084ae/t/58c752cf59cc68a6d74b561d/1489457878680/barbershop-1.jpg?format=1500w');
+ 	background-size: cover;  
+	background-position: center;
+}
+.jumbotron.landing .container{
+	margin-top: 100px;
+	float: none;
+	background-color: rgba(0,0,0,0.7);
+}
+.jumbotron.landing *{
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+}
+.jumbotron.landing h1{
+	font-size: 80px;
+	letter-spacing: 2px;
+	font-family: impact;
+	
+}
+.jumbotron.landing span{
+	font-family: 'Amatic SC', cursive;
+	color: #00deff;
+}
+.jumbotron.landing p{
+	color:#ff4400;
+}
+/*========== full color parallax to seperate section ===========*/
+.parallax{
+	height: 200px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.pic1{
+	background-image: url('http://www.thewhairloft.com/wp-content/uploads/2015/01/tumblr_mz20ql9Hyu1tozvnno1_1280.jpg');
+}
+.pic2{
+	background-image: url('http://www.directorscutbarbers.com/wp-content/uploads/2017/01/scissors2.jpg');
+}
+
+/*========== Haircut Style Pictures ===========*/
+
+.cuts{
+	background-color: black;
+}
+.cuts .cutPic{
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+
+.cutPic.medLength{
+	background-image: url(http://www.herstyle.cz/galerie/mk-mix/panske-ucesy-2017-elegance.jpg);
+}
+.cutPic.highFade{
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/cc/46/6e/cc466e1cd315442ff3ce853ef6525c7d.jpg);
+	background-position: 0% 0%;
+}
+.cutPic.shortTaper{
+	background-image: url(http://devoutfashion.com/wp-content/uploads/2016/09/taper-fade.jpg);
+}
+.cutPic.long{
+	background-image: url(https://smhttp-ssl-33667.nexcesscdn.net/manual/wp-content/uploads/2017/01/mens-long-hair-blonde-1170x749.jpg);
+}
+/*========== Haircut Style Descriptions ===========*/
+.cuts .cutInfo{
+	font-family: 'Amatic SC', cursive;
+}
+.cuts .cutInfo h1{
+	color: #00deff;
+	font-size: 5em;
+}
+.cuts .cutInfo p{
+	color: lightgray;
+	font-size: 1.9em;
+}
+/*========== Meet the team ===========*/
+#team{
+	padding: 30px 0 ;
+	background-color: black;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+}
+#team h1{
+	font-size: 5em;
+	padding: 20px 0 ;
+}
+#team h3{
+	font-size: 3.5em;
+}
+#team p {
+	font-size: 2.5em;
+}
+#team img{
+	margin: 0 auto;
+}
+/* ======== FOOTER =======*/
+footer{
+    background-color: #000;
+    color: white;
+}
+footer h3,
+footer p{
+	font-family: 'Amatic SC', cursive;
+	padding: 25px;
+	font-size: 3em;
+}
+footer .links{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+footer .links a{
+	color: white;
+}
+footer .links a > i{
+    font-size: 2.3em;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer .links a > i:hover{
+    color: #00deff !important;
+}
+footer .links .ccopy{
+    margin-top: 25px;
+    font-size: 0.86em;
+}
+footer .links .ccopy > i{
+    color: #f00;
+    margin: 0;
+    padding: 3px
+}
+
+
+
+/*========== Custom Media Queries ===========*/
+@media (max-width: 768px) {
+   .cutInfo{
+   	text-align: center;
+   }
+}
